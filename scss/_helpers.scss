@@ -1,0 +1,15 @@
+.centered {
+    margin: 1em auto;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .centered {
+        margin-top: 30px;
+        // position: relative;
+        // top: 50%;
+        // left: 50%;
+        // /* bring your own prefixes */
+        // transform: translate(-75%, 15%);
+    }
+}

@@ -1,0 +1,65 @@
+.centered {
+  margin: 1em auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .centered {
+    margin-top: 30px;
+  }
+}
+body {
+  font-size: 16px;
+  font-family: "Fira Sans", sans-serif;
+  background-color: RGB(245, 245, 245);
+  line-height: 1.5;
+  color: RGB(105, 105, 105);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Hepta Slab", serif;
+}
+
+a {
+  text-decoration: none;
+  color: RGB(102, 51, 153);
+}
+
+a:hover, a:active {
+  color: RGB(216, 191, 216);
+  background-color: RGB(102, 51, 153);
+}
+a:hover h2, a:active h2 {
+  color: RGB(216, 191, 216);
+  background-color: RGB(102, 51, 153);
+  padding-left: 20px;
+}
+
+#wrapper {
+  width: 80%;
+  margin-bottom: 2em;
+}
+#wrapper h1 {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+#main {
+  background-color: RGB(216, 191, 216);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+  #wrapper {
+    width: 50%;
+    height: 50%;
+  }
+}
+.category {
+  border-bottom: dashed 2px RGB(102, 51, 153);
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+
+/*# sourceMappingURL=style.css.map */
