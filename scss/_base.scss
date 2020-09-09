@@ -1,29 +1,28 @@
 body {
     font-size: 16px;
     font-family: $sans-serif;
+    font-weight: 400;
     background-color: $bg;
-    line-height: 1.5;
+    line-height: 1.6rem;
     color: $font-color;
+    margin: 2em;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: $serif;
+    font-family: $sans-serif;
+    font-weight: 600;
 }
 
 a {
     text-decoration: none;
     color: $link;
-}
+    border-bottom: solid 2px $link-underline;
+    margin-bottom: 1em;
+    transition: background-color .5s;
 
-a:hover, a:active {
-    color: $main;
-    background-color: $link;
-
-    h2 {
-        color: $main;
-        background-color: $link;
-        padding-left: 20px;
+    &:hover {
+        background-color: $hover-bg;
     }
+
+    
 }
-
-

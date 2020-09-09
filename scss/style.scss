@@ -1,5 +1,8 @@
-// variables first
-@import 'variables', 'helpers';
+// 01: Normalize.css
+@import 'normalize';
 
-// then base style
+// 02: variables
+@import 'variables';
+
+// 03: base styles
 @import 'base', 'layout';
