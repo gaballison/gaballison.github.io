@@ -9,5 +9,6 @@ header {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1.5fr 1.5fr;
-    grid-gap: 1rem;
+    column-gap: 2rem;
+    row-gap: 1rem;
   }
